@@ -1,0 +1,85 @@
+/* 
+	define the colorscheme here
+*/
+
+/* :root {
+	--m-green:#A6E22E;
+	--m-pink:#F92672;
+	--m-purple:#AE81FF;
+	--m-orange:#FD971F;
+	--m-blue:#66D9EF;
+	--m-black:#000000;
+} */
+
+@font-face {
+  font-family: "UbuntuMono";
+  src: url("fonts/UbuntuMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "UbuntuMono";
+  src: url("fonts/UbuntuMono-Italic.ttf") format("truetype");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "UbuntuMono";
+  src: url("fonts/UbuntuMono-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+    font-family: "UbuntuMono";
+    src: url("fonts/UbuntuMono-BoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+* {
+	font-family: "UbuntuMono";
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.centerd-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#me-img {
+	border-radius: 50%;
+	border-style: solid;
+	width: 300px;
+	height: 300px;
+
+}
+
+#index-text {
+	word-wrap: break-word;
+   	width: 300px;
+}
+
+#name-title {
+	font-size: larger;
+	text-align: center;
+}
+
+.centered-text {
+	text-align: center;
+}
+
+a {
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+
